@@ -129,6 +129,12 @@ text-transform: uppercase;
     background-color: var(--bg-color2);
     padding: 80px 0 79px 0;
 }
+.products-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
 .products-link{
 color: var(--text-color);
 font-size: 11px;
@@ -151,6 +157,8 @@ font-size: 12px;
 font-weight: 400;
 line-height: 1.66667; /* 166.667% */
 letter-spacing: 0.25px;
+margin-top: 5px;
+margin-bottom: 85px;
 }
 .products-button{
     border-radius: 999px;
@@ -164,17 +172,63 @@ letter-spacing: 1.3px;
 text-transform: uppercase;
 padding: 8px 58px 6px 57px;
 }
+.products-list{
+    display: flex;
+    gap: 32px;
+}
+.products-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.products-box3{
+    position: relative;
+}
+.products-mark{
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    left: 219px;
+}
+.products-subtitle2{
+    width: 110px;
+    color: var(--text-color);
+font-size: 11px;
+font-weight: 400;
+line-height: 1.81818; /* 181.818% */
+letter-spacing: 0.25px;
+position: absolute;
+top: 374px;
+left: 97px;
+}
+.products-box4{
+    position: relative;
+}
+.products-subtitle3{
+color: var(--text-color);
+font-size: 11px;
+font-weight: 400;
+line-height: 1.81818; /* 181.818% */
+letter-spacing: 0.25px;
+position: absolute;
+top: 373px;
+left: 152px;
+}
 .alure{
     background-color: var(--bg-color2);
     padding: 22px 0 18px 0;
 }
 .alure-title{
-width: 640px;
+width: 435px;
 color: var(--text-color);
 text-align: center;
 font-size: 43px;
 font-weight: 400;
 line-height: 1.09302; /* 109.302% */
+margin-top: 87px;
+margin-bottom: 42px;
 }
 .alure-subtitle{
 width: 378px;
@@ -183,6 +237,14 @@ text-align: center;
 font-size: 17px;
 font-weight: 400;
 line-height: 1.35294; /* 135.294% */
+}
+.alure-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 51px;
 }
 .alure-text{
     width: 370px;
@@ -204,12 +266,43 @@ letter-spacing: 1.3px;
 text-transform: uppercase;
 padding: 1px 94px;
 }
+.alure-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 133px;
+}
+.alure-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alure-mark{
+    width: 80px;
+height: 43px;
+}
 .basics{
     background-color: var(--bg-color2);
     padding: 10px 0 18px 0;
 }
+.basics-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 152px;
+}
+.basics-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .basics-subtitle2{
-background-color: var(--bg-color);
+background-image: url(../img/bg-text.webp);
+background-repeat:  no-repeat;
+background-position: center;
+background-size: cover;
 color: var(--text-color);
 text-align: center;
 font-size: 12px;
@@ -233,6 +326,8 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 1.27778; /* 127.778% */
+margin-top: 42px;
+margin-bottom: 28px;
 }
 .basics-button{
     border-radius: 999px;
@@ -267,6 +362,13 @@ line-height: 2.45455; /* 245.455% */
 font-size: 12px;
 font-weight: 400;
 line-height: 2.25; /* 225% */
+margin-bottom: 28px;
+}
+.footer-subtitle12{
+        color: var(--text-color);
+font-size: 12px;
+font-weight: 400;
+line-height: 2.25; /* 225% */
 }
 .footer-subtitle1{
     color: var(--text-color);
@@ -282,14 +384,29 @@ line-height: 2.45455; /* 245.455% */
 }
 .footer-text{
 color: var(--text-color);
-text-align: center;
+text-align: start;
 font-size: 12px;
 font-weight: 400;
 line-height: 3.66667; /* 366.667% */
+}
+.footer-text2{
+    margin-bottom: 16px;
 }
 .footer-subtitle3{
     color: var(--text-color);
 font-size: 12px;
 font-weight: 400;
 line-height: 2.25; /* 225% */
+}
+.footer-container{
+    display: flex;
+}
+.footer-list{
+    margin-right: 128px;
+}
+.footer-list2{
+    margin-right: 123px;
+}
+.footer-list3{
+    margin-right: 133px;
 }
